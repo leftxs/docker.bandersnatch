@@ -14,6 +14,12 @@ on the host, create /srv/pypi
 
     mkdir -p /srv/pypi
 
+get the container:
+
+.. code-block:: rst
+
+    docker pull leftxs/bandersnatch
+
 run the container:
 
 .. code-block:: rst
