@@ -18,4 +18,4 @@ run the container:
 
 .. code-block:: rst
 
-docker run -d -v /srv/pypi:/srv/pypi --name pypi-mirror leftxs/bandersnatch
+    docker run -d -v /srv/pypi:/srv/pypi --name pypi-mirror leftxs/bandersnatch
