@@ -14,6 +14,9 @@ RUN dpkg-reconfigure locales && \
     locale-gen C.UTF-8 && \
     /usr/sbin/update-locale LANG=C.UTF-8
 
+RUN echo Europe/Amsterdam > /etc/timezone && \
+    dpkg-reconfigure
+
 ENV LC_ALL C.UTF-8
 
 RUN apt-get clean && \
